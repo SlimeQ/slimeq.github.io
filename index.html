@@ -79,14 +79,6 @@
             animation: glow 3s ease-in-out infinite alternate;
         }
         
-        .avatar img {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            object-fit: cover;
-            background: var(--bg);
-        }
-        
         .avatar-placeholder {
             width: 100%;
             height: 100%;
@@ -486,7 +478,7 @@
             <h2>✨ Featured Work</h2>
             
             <div class="project featured">
-                <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1200&h=600&fit=crop" alt="KAGAMI AR Concert" class="project-image" style="filter: hue-rotate(200deg) saturate(1.2);">
+                <img src="https://img.youtube.com/vi/sF-QufgLpFk/maxresdefault.jpg" alt="KAGAMI - Ryuichi Sakamoto AR Concert" class="project-image">
                 <div class="project-content">
                     <div class="project-header">
                         <h3>🎹 KAGAMI — Ryuichi Sakamoto AR Concert</h3>
@@ -507,6 +499,7 @@
                         <span>FORBES</span>
                         <span>THE NEW YORK TIMES</span>
                         <span>NME</span>
+                        <span>WIRED</span>
                     </div>
                     <div class="tags">
                         <span class="tag">Unity</span>
@@ -517,9 +510,10 @@
                         <span class="tag">C#</span>
                     </div>
                     <div class="links">
-                        <a href="https://www.theguardian.com/music/2023/jul/02/kagamiryuichi-sakamoto-and-tin-drum-review-magical-vr-performance-brings-legendary-composer-back-to-life" target="_blank" class="primary">Read The Guardian Review →</a>
-                        <a href="https://www.forbes.com/sites/charliefink/2023/06/10/kagami-live-mixed-realty-show-begins-limited-run/" target="_blank">Forbes Coverage →</a>
-                        <a href="https://www.nytimes.com/2023/06/25/arts/design/art-virtual-reality-shed-sakamoto.html" target="_blank">NY Times →</a>
+                        <a href="https://www.theguardian.com/music/2023/jul/02/kagamiryuichi-sakamoto-and-tin-drum-review-magical-vr-performance-brings-legendary-composer-back-to-life" target="_blank" class="primary">The Guardian Review →</a>
+                        <a href="https://www.forbes.com/sites/charliefink/2023/06/10/kagami-live-mixed-realty-show-begins-limited-run/" target="_blank">Forbes →</a>
+                        <a href="https://www.wired.com/story/ryuichi-sakamotos-final-performance-is-a-virtual-only-engagement/" target="_blank">WIRED →</a>
+                        <a href="https://www.youtube.com/watch?v=sF-QufgLpFk" target="_blank">▶ Watch Trailer</a>
                     </div>
                 </div>
             </div>
@@ -557,19 +551,21 @@
             
             <div class="projects-grid">
                 <div class="project">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop" alt="Wayne Dalton" class="project-image">
                     <div class="project-content">
                         <div class="project-header">
-                            <h3>Wayne Dalton Design Center</h3>
+                            <h3>🚗 Wayne Dalton Design Center</h3>
                             <span class="project-meta">iOS & Android</span>
                         </div>
                         <p>
-                            Product visualization app for custom garage door design with photo upload and 3D reprojection.
+                            Product visualization app for custom garage door design. Upload a photo of your home and see 
+                            how different door styles, colors, and windows look with photorealistic 3D reprojection.
                         </p>
                         <div class="tags">
                             <span class="tag">Unity</span>
+                            <span class="tag">C#</span>
                             <span class="tag">iOS</span>
                             <span class="tag">Android</span>
+                            <span class="tag">3D Visualization</span>
                         </div>
                         <div class="links">
                             <a href="https://apps.apple.com/us/app/wayne-dalton-design-center/id1272322603" target="_blank">App Store →</a>
@@ -579,17 +575,18 @@
                 </div>
 
                 <div class="project">
-                    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=400&fit=crop" alt="DoorView" class="project-image">
                     <div class="project-content">
                         <div class="project-header">
-                            <h3>DoorView</h3>
+                            <h3>🏠 DoorView</h3>
                             <span class="project-meta">iOS & Android</span>
                         </div>
                         <p>
-                            Overhead Door's official garage door design app with dealer integration and AR preview.
+                            Overhead Door's official garage door design app with photo upload visualization, 
+                            product customization, and integrated dealer locator.
                         </p>
                         <div class="tags">
                             <span class="tag">Unity</span>
+                            <span class="tag">C#</span>
                             <span class="tag">iOS</span>
                             <span class="tag">Android</span>
                         </div>
@@ -601,14 +598,14 @@
                 </div>
 
                 <div class="project">
-                    <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop" alt="Envision AR" class="project-image">
                     <div class="project-content">
                         <div class="project-header">
-                            <h3>Envision AR Visualizer</h3>
+                            <h3>🏊 Envision AR Visualizer</h3>
                             <span class="project-meta">iOS & Android</span>
                         </div>
                         <p>
-                            AR pool liner visualization with realistic water rendering and time-of-day lighting.
+                            AR pool liner visualization with realistic water rendering, 360° rotation, 
+                            and time-of-day lighting simulation.
                         </p>
                         <div class="tags">
                             <span class="tag">Unity</span>
@@ -684,12 +681,12 @@
                 <div class="project">
                     <div class="project-content">
                         <div class="project-header">
-                            <h3>Voice AI System</h3>
+                            <h3>🎙️ Voice AI System</h3>
                             <span class="project-meta">Silversight.ai · 2025</span>
                         </div>
                         <p>
                             Led development of voice synthesis and LLM conversation system. Productionized ML models 
-                            on Google Cloud with MCP tool calling and custom fine-tuning pipelines.
+                            (Sesame/CSM-1B, Qwen3) on Google Cloud with MCP tool calling and custom fine-tuning pipelines.
                         </p>
                         <div class="tags">
                             <span class="tag">Python</span>
@@ -703,12 +700,12 @@
                 <div class="project">
                     <div class="project-content">
                         <div class="project-header">
-                            <h3>LLM Chatbot</h3>
+                            <h3>💬 LLM Chatbot</h3>
                             <span class="project-meta">Personal · 2023–Present</span>
                         </div>
                         <p>
-                            C# chatbot with GPT/Llama integration, PostgreSQL caching, Stable Diffusion, and RAG. 
-                            Fine-tuned 13B model on custom dataset.
+                            C# chatbot with GPT/Llama integration, PostgreSQL caching, Stable Diffusion image generation, 
+                            and RAG via pgvector. Fine-tuned 13B model on custom dataset.
                         </p>
                         <div class="tags">
                             <span class="tag">C#</span>
