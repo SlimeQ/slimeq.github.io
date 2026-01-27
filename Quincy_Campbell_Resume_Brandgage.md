@@ -1,99 +1,75 @@
 # Quincy Campbell
-**Pittsburgh, PA 15216** | (517) 515-1699 | quincy120@gmail.com | [github.com/SlimeQ](https://github.com/SlimeQ) | [slimeq.github.io](https://slimeq.github.io)
+**Pittsburgh, PA 15216** | (517) 515-1699 | quincy120@gmail.com | [slimeq.github.io](https://slimeq.github.io) | [github.com/SlimeQ](https://github.com/SlimeQ)
 
 ---
 
 ## SUMMARY
 
-Unity developer with 7+ years of experience building interactive applications for trade shows, live events, and product visualization. Proven track record shipping polished apps across PC, WebGL, iOS, Android, and XR platforms under fast-paced deadlines. Strong collaborator with artists and designers, experienced in modular architecture, custom shaders, and hardware integration.
+Unity developer with 7+ years of experience building interactive applications for trade shows, live events, and product visualization. Shipped across PC, WebGL, iOS, Android, and XR (Magic Leap 2). Strong in modular C# architecture, UI implementation, asset pipeline integration with artists/designers, REST/API integration, and performance debugging/optimization.
 
 ---
 
 ## PRIMARY SKILLS
 
-| | | |
-|---|---|---|
-| Unity (7+ years) | C# / .NET | iOS & Android deployment |
-| WebGL / PlayCanvas | Custom shaders & materials | VR/AR (Magic Leap, Quest, SteamVR) |
-| REST API integration | UI/UX implementation | Asset pipeline management |
-| Procedural mesh generation | 3D math & physics | Git / CI/CD |
+- **Unity / C#** (architecture, tooling/plugins, UI)
+- **Deployments:** Windows, WebGL, Android, iOS
+- **XR:** Magic Leap 2 (Android), VR/AR experience
+- **Integration:** REST APIs, WebSockets, networking (Mirror / Netcode for GameObjects)
+- **Graphics:** custom shaders/materials, procedural mesh techniques, 3D math/physics
+- **Backend:** ASP.NET Core, PostgreSQL
 
 ---
 
-## EMPLOYMENT EXPERIENCE
+## PROFESSIONAL EXPERIENCE (MOST RECENT FIRST)
 
-### Unity Developer | Chameleon Power | June 2018 – May 2022 (4 years)
+### Head of AI Engineering — Silversight.ai | **Mar 2025 – Present**
+- Led engineering on production AI systems; owned CI/CD (Docker, GitHub Actions) and cloud deployments (GCP). *(Kept brief for this Unity-focused role.)*
 
-*Product visualization apps deployed to trade shows and consumer platforms*
+### Backend Python Developer — Agentic Brain | **Jan 2025 – Mar 2025**
+- Built OpenAI-based tooling and Python/Flask/SQLAlchemy backend services supporting multi-platform chatbots.
 
-- Created product visualization apps for PC, WebGL, Android, and iOS using Unity and PlayCanvas
-- Collaborated with design teams to integrate 2D, 3D, and visual effects assets into application logic
-- Used 3D reprojection techniques to apply products onto customer-uploaded photographs
-- Wrote custom shaders and procedural mesh systems for real-time product manipulation
-- Designed and scripted complex UI structures; created UI assets in Photoshop and Illustrator
-- Integrated various 3rd party REST APIs into Unity apps for data retrieval and submission
-- Optimized applications for build size and performance on low-end hardware and WebGL
-- Created modularized Unity plugins to accelerate development across multiple projects
-- Built visual scripting tools in Unity for non-technical users (color scientists)
-- Wrote ASP.NET endpoints to provide server-side functionality to Unity applications
+### Full Stack Developer (Unity / AR) — Tin Drum | **Mar 2023 – Jan 2025**
+- Built warehouse-scale Unity AR apps for **Magic Leap 2 (Android)** for live performances (including **KAGAMI**).
+- Developed supporting platform: Android fleet tools (200+ devices), C#/ASP.NET Core/Blazor systems for metrics, file distribution, and AV sync.
+- Created reusable Unity plugins; implemented networking/integration patterns (HTTP/WebSockets, Mirror/NGO).
+- Implemented volumetric capture compression/decompression + playback pipeline.
 
-### Full Stack Developer | Tin Drum | March 2023 – January 2025 (2 years)
+### Unity Developer — Mobeus Industries | **May 2022 – Mar 2023**
+- Led a small distributed team building a Unity 3D motion-controlled video call demo.
+- Owned architecture across netcode, graphics, and control systems; integrated Google Mediapipe pose recognition.
 
-*AR applications for live performances including KAGAMI (The Shed NYC, Manchester International Festival)*
+### Unity Developer — Chameleon Power | **Jun 2018 – May 2022**
+- Shipped Unity/PlayCanvas visualization products across **PC, WebGL, iOS, Android**.
+- Built/maintained: **Wayne Dalton Design Center**, **DoorView**, **Raynor Design Center**, **Design-It-All**, **IKO RoofViewer (Android, delisted)**, **ENVISION LED Visualizer (WebGL)**, and **Chromalyzer 2**.
+- Implemented photo-upload visualization (3D reprojection), custom shaders/materials, procedural mesh systems, complex UI, and REST/API integrations.
+- Created reusable Unity plugins and internal tools; performance and build-size optimization for low-end hardware and WebGL.
 
-- Developed warehouse-scale AR applications in Unity for Magic Leap 2 (Android)
-- Wrote Android apps in Java to manage configuration of 200+ device fleet for live events
-- Built C#/ASP.NET Core/Blazor backend for metrics tracking, file distribution, and content sync
-- Designed reusable Unity plugins to accelerate development across projects
-- Developed backend solutions for Unity projects (Mirror, Netcode for GameObjects, WebSockets)
-- Created compression/decompression and playback system for volumetric capture data
-- Provided remote support for live performances around the world
+### Solo Game Developer — Hailstorm VR | **Aug 2016 – Jun 2018**
+- Designed and shipped a multiplayer VR FPS in Unreal Engine 4 (C++), including Steam subsystem, VoIP, and Workshop support.
 
-### Unity Developer | Mobeus Industries | May 2022 – March 2023 (1 year)
+### Back End Java Developer — Maestro | **Jul 2015 – Aug 2016**
+- Built and maintained REST services with Java/Spring Boot/PostgreSQL; maintained OAuth2 server.
 
-- Led small global team building Unity tech demo for 3D motion-controlled video calls
-- Designed application architecture; advised on netcode, graphics, and control systems
-- Integrated real-time ML model (Google Mediapipe) for pose recognition from webcam input
+### Drupal Developer — Switchback LLC | **May 2015 – Jul 2015**
+- Worked on Drupal 7 sites/plugins (PHP/JavaScript) in a distributed team.
 
-### Solo Game Developer | Hailstorm VR | August 2016 – June 2018 (2 years)
+### Web Developer — Waldo Library (WMU) | **Jan 2014 – May 2015**
+- Built internal web tools (PHP/JS/MySQL); supported internal Android/WiFi positioning + ML classification components.
 
-*Multiplayer VR shooter shipped on Steam with Workshop support*
-
-- Designed and developed multiplayer VR FPS in Unreal Engine 4 with C++
-- Integrated Steam online subsystem, VoIP with proximity chat, and Workshop for custom maps
-- Created audio and visual assets using Maya, Photoshop, and Audacity
-- Wrote AI modules using behavior trees; designed custom flight/movement systems
-- Worked directly with players to find bugs, prioritize features, and improve gameplay
-
-### Head of AI Engineering | Silversight.ai | March 2025 – Present
-
-- Led small engineering team; established best practices for AI-assisted development workflows
-- Deployed ML models to Google Cloud; managed Docker/GitHub Actions CI/CD pipelines
-
----
-
-## ADDITIONAL SKILLS
-
-| | |
-|---|---|
-| Unreal Engine 4 (C++, Blueprints) | Python backend development |
-| Server administration (Linux/Windows) | PostgreSQL / database design |
-| Multiplayer networking | Basic 3D art (Blender, Maya) |
-| Editor scripting & tooling | LLM integration |
+### Systems Technician — Waldo Library (WMU) | **Sep 2012 – Jan 2014**
+- Help desk + Windows terminal diagnosis/repair for library staff.
 
 ---
 
 ## EDUCATION
 
 **Western Michigan University** — B.S. Computer Science (Theory & Analysis)  
-Minor: Mathematics, Philosophy | Graduated 2015
+Minor: Mathematics, Philosophy | **2015**
 
 ---
 
-## PORTFOLIO
+## SELECTED WORK / PORTFOLIO
 
-**KAGAMI** — AR concert for Ryuichi Sakamoto (Magic Leap 2) — *Featured in The Guardian, Forbes, NYT*  
-**Hailstorm VR** — Multiplayer VR FPS — [Steam](https://store.steampowered.com/app/618500/Hailstorm_VR/)  
-**Chameleon Power** — Wayne Dalton, DoorView, Raynor, IKO RoofViewer, ENVISION, Chromalyzer 2
-
-Full portfolio: **slimeq.github.io**
+- Portfolio: **https://slimeq.github.io/**
+- **KAGAMI** (Tin Drum, Magic Leap 2) — featured in The Guardian / Forbes / NYT
+- **Hailstorm VR** — Steam: https://store.steampowered.com/app/618500/Hailstorm_VR/
