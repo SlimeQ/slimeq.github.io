@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quincy Campbell - Unity & XR Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --bg: #0a0a0b;
+            --card: #141416;
+            --border: #2a2a2d;
+            --text: #e4e4e7;
+            --muted: #a1a1aa;
+            --accent: #6366f1;
+            --accent-glow: rgba(99, 102, 241, 0.15);
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            padding: 4rem 0 3rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 3rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #fff 0%, #a1a1aa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tagline {
+            font-size: 1.25rem;
+            color: var(--muted);
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .contact-links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: opacity 0.2s;
+        }
+        
+        .contact-links a:hover {
+            opacity: 0.8;
+        }
+        
+        section {
+            margin-bottom: 4rem;
+        }
+        
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--muted);
+            margin-bottom: 1.5rem;
+        }
+        
+        .project {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.75rem;
+            margin-bottom: 1.25rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        
+        .project:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 30px var(--accent-glow);
+        }
+        
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .project h3 {
+            font-size: 1.35rem;
+            font-weight: 600;
+        }
+        
+        .project-meta {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        
+        .project p {
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+        
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tag {
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            color: var(--accent);
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .links a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+        
+        .links a:hover {
+            border-color: var(--accent);
+            background: var(--accent-glow);
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border-color: rgba(99, 102, 241, 0.3);
+        }
+        
+        .press-quote {
+            font-style: italic;
+            color: var(--text);
+            border-left: 3px solid var(--accent);
+            padding-left: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .press-source {
+            font-style: normal;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .skill-category h4 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+        
+        .skill-category ul {
+            list-style: none;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        
+        .skill-category li {
+            padding: 0.25rem 0;
+        }
+        
+        footer {
+            border-top: 1px solid var(--border);
+            padding-top: 2rem;
+            margin-top: 4rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        
+        @media (max-width: 640px) {
+            .container {
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            header {
+                padding: 2rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quincy Campbell</h1>
+            <p class="tagline">Unity Developer · XR/AR Specialist · AI Systems Engineer</p>
+            <div class="contact-links">
+                <a href="mailto:quincy120@gmail.com">quincy120@gmail.com</a>
+                <a href="https://github.com/SlimeQ" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/quincy-campbell" target="_blank">LinkedIn</a>
+                <span style="color: var(--muted)">Pittsburgh, PA</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Featured Projects</h2>
+            
+            <div class="project highlight">
+                <div class="project-header">
+                    <h3>KAGAMI — Ryuichi Sakamoto AR Concert</h3>
+                    <span class="project-meta">Tin Drum · 2023</span>
+                </div>
+                <p>
+                    Warehouse-scale augmented reality experience featuring legendary composer Ryuichi Sakamoto 
+                    performing as a photorealistic hologram. Deployed on Magic Leap 2 headsets for audiences 
+                    at The Shed (NYC) and Manchester International Festival.
+                </p>
+                <div class="press-quote">
+                    "An otherworldly, strangely moving, even groundbreaking experience."
+                    <span class="press-source">— The Guardian</span>
+                </div>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">Magic Leap 2</span>
+                    <span class="tag">AR</span>
+                    <span class="tag">Volumetric Capture</span>
+                    <span class="tag">Live Performance</span>
+                </div>
+                <div class="links">
+                    <a href="https://www.theguardian.com/music/2023/jul/02/kagamiryuichi-sakamoto-and-tin-drum-review-magical-vr-performance-brings-legendary-composer-back-to-life" target="_blank">The Guardian Review →</a>
+                    <a href="https://www.forbes.com/sites/charliefink/2023/06/10/kagami-live-mixed-realty-show-begins-limited-run/" target="_blank">Forbes Coverage →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Hailstorm VR</h3>
+                    <span class="project-meta">Solo Project · 2016–2018</span>
+                </div>
+                <p>
+                    Multiplayer VR first-person shooter built in Unreal Engine 4 with a focus on agile 
+                    locomotion and deep gameplay customization. Features wingsuit flight, proximity voice chat, 
+                    Steam Workshop integration, and AI opponents using behavior trees.
+                </p>
+                <div class="tags">
+                    <span class="tag">Unreal Engine 4</span>
+                    <span class="tag">C++</span>
+                    <span class="tag">VR</span>
+                    <span class="tag">Multiplayer</span>
+                    <span class="tag">Steam</span>
+                </div>
+                <div class="links">
+                    <a href="https://store.steampowered.com/app/618500/Hailstorm_VR/" target="_blank">View on Steam →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Tin Drum Platform & Tools</h3>
+                    <span class="project-meta">Tin Drum · 2023–2025</span>
+                </div>
+                <p>
+                    Full-stack development for AR live performance platform. Built Android fleet management 
+                    for 200+ Magic Leap devices, C#/ASP.NET Core backend for metrics and content distribution, 
+                    volumetric capture compression/playback systems, and reusable Unity plugins.
+                </p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">ASP.NET Core</span>
+                    <span class="tag">Android</span>
+                    <span class="tag">Magic Leap</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Shipped Products</h2>
+            
+            <div class="project">
+                <div class="project-header">
+                    <h3>Wayne Dalton Design Center</h3>
+                    <span class="project-meta">Chameleon Power · iOS & Android</span>
+                </div>
+                <p>
+                    Product visualization app allowing homeowners to design custom garage doors and 
+                    preview them on photos of their homes. 3D reprojection techniques for photorealistic results.
+                </p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">iOS</span>
+                    <span class="tag">Android</span>
+                    <span class="tag">Product Visualization</span>
+                </div>
+                <div class="links">
+                    <a href="https://apps.apple.com/us/app/wayne-dalton-design-center/id1272322603" target="_blank">App Store →</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.ChameleonPower.ProductionWayneDalton" target="_blank">Google Play →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>DoorView (Overhead Door)</h3>
+                    <span class="project-meta">Chameleon Power · iOS & Android</span>
+                </div>
+                <p>
+                    Garage door design and visualization app with photo upload, product customization, 
+                    and dealer locator integration.
+                </p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">iOS</span>
+                    <span class="tag">Android</span>
+                </div>
+                <div class="links">
+                    <a href="https://apps.apple.com/us/app/doorview/id1170218190" target="_blank">App Store →</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.ChameleonPower.OverheadDoor" target="_blank">Google Play →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Envision AR Visualizer</h3>
+                    <span class="project-meta">Chameleon Power · iOS & Android</span>
+                </div>
+                <p>
+                    AR pool liner visualization app with realistic water rendering, 360° views, 
+                    and time-of-day lighting simulation.
+                </p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">AR</span>
+                    <span class="tag">iOS</span>
+                    <span class="tag">Android</span>
+                </div>
+                <div class="links">
+                    <a href="https://apps.apple.com/us/app/envision-ar-visualizer/id1614490660" target="_blank">App Store →</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.ChameleonPower.TaraLinersAR" target="_blank">Google Play →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Web Visualization Platform</h3>
+                    <span class="project-meta">Chameleon Power · 2018–2022</span>
+                </div>
+                <p>
+                    Built WebGL product visualizers for major brands including GAF, Daltile, Tarkett, 
+                    Armstrong, and 50+ others. Custom shaders, procedural mesh generation, REST API 
+                    integration, and cross-platform deployment (PC, WebGL, iOS, Android).
+                </p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">PlayCanvas</span>
+                    <span class="tag">WebGL</span>
+                    <span class="tag">Shaders</span>
+                    <span class="tag">REST APIs</span>
+                </div>
+                <div class="links">
+                    <a href="https://chameleonpower.com/web_visualizers.aspx" target="_blank">View Platform →</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recent AI Work</h2>
+            
+            <div class="project">
+                <div class="project-header">
+                    <h3>Voice AI System</h3>
+                    <span class="project-meta">Silversight.ai · 2025</span>
+                </div>
+                <p>
+                    Led development of voice-based AI system using cloned voices and LLM-driven conversations. 
+                    Productionized ML models (Sesame/CSM-1B, Qwen3) on Google Cloud. Implemented MCP tool 
+                    calling for in-scenario actions and built data collection pipelines for voice/text model fine-tuning.
+                </p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">LLMs</span>
+                    <span class="tag">Google Cloud</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">Voice Synthesis</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>LLM Chatbot</h3>
+                    <span class="project-meta">Personal Project · 2023–Present</span>
+                </div>
+                <p>
+                    C# chatbot leveraging GPT and Llama models with PostgreSQL message caching, 
+                    Stable Diffusion image generation, and RAG via pgvector. Fine-tuned 13B Llama model 
+                    on custom dataset. Contributed to open-source Matrix.NET library.
+                </p>
+                <div class="tags">
+                    <span class="tag">C#</span>
+                    <span class="tag">LLMs</span>
+                    <span class="tag">Fine-tuning</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">Stable Diffusion</span>
+                </div>
+                <div class="links">
+                    <a href="https://github.com/SlimeQ" target="_blank">GitHub →</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Game Engines</h4>
+                    <ul>
+                        <li>Unity (7+ years)</li>
+                        <li>Unreal Engine 4</li>
+                        <li>PlayCanvas</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <ul>
+                        <li>C# / .NET</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>XR Platforms</h4>
+                    <ul>
+                        <li>Magic Leap 2</li>
+                        <li>Meta Quest</li>
+                        <li>SteamVR</li>
+                        <li>ARKit / ARCore</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Backend & AI</h4>
+                    <ul>
+                        <li>ASP.NET Core</li>
+                        <li>PostgreSQL</li>
+                        <li>LLM Integration</li>
+                        <li>Model Fine-tuning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Available for Unity, XR, and AI engineering roles · Pittsburgh, PA</p>
+        </footer>
+    </div>
+</body>
+</html>
