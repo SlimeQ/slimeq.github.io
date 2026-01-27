@@ -24,9 +24,9 @@ Unity developer with 7+ years of experience building interactive applications fo
 
 ### Unity Developer | Chameleon Power | June 2018 – May 2022 (4 years)
 
-*Product visualization apps for major brands deployed to trade shows and consumer platforms*
+*Product visualization apps deployed to trade shows and consumer platforms*
 
-- Created 50+ product visualization apps for PC, WebGL, Android, and iOS using Unity and PlayCanvas
+- Created product visualization apps for PC, WebGL, Android, and iOS using Unity and PlayCanvas
 - Collaborated with design teams to integrate 2D, 3D, and visual effects assets into application logic
 - Used 3D reprojection techniques to apply products onto customer-uploaded photographs
 - Wrote custom shaders and procedural mesh systems for real-time product manipulation
@@ -94,7 +94,6 @@ Minor: Mathematics, Philosophy | Graduated 2015
 
 **KAGAMI** — AR concert for Ryuichi Sakamoto (Magic Leap 2) — *Featured in The Guardian, Forbes, NYT*  
 **Hailstorm VR** — Multiplayer VR FPS — [Steam](https://store.steampowered.com/app/618500/Hailstorm_VR/)  
-**Wayne Dalton / DoorView / Envision AR** — Product visualization apps (iOS/Android)  
-**Chameleon Power Platform** — 50+ WebGL visualizers for major brands
+**Chameleon Power** — Wayne Dalton, DoorView, Raynor, IKO RoofViewer, ENVISION, Chromalyzer 2
 
 Full portfolio: **slimeq.github.io**
