@@ -1,5 +1,7 @@
-# Private Knowledge Base (not public)
+# Knowledge Base
 
-This folder is intentionally **not** tracked in the public portfolio repo.
+A lightweight source of truth for resume/portfolio claim language and canonical links.
 
-It’s a single source of truth for resume/portfolio claims, links, and citations.
+- `claims.md` — approved resume/portfolio phrasing
+- `links.json` — canonical link set
+- `projects/` — short notes per project
