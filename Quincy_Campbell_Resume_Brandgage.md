@@ -66,11 +66,3 @@ Unity developer with 7+ years of experience building interactive applications fo
 
 **Western Michigan University** — B.S. Computer Science (Theory & Analysis)  
 Minor: Mathematics, Philosophy | **2015**
-
----
-
-## SELECTED WORK / PORTFOLIO
-
-- Portfolio: **https://slimeq.github.io/**
-- **KAGAMI** (Tin Drum, Magic Leap 2) — featured in The Guardian / Forbes / NYT
-- **Hailstorm VR** — Steam: https://store.steampowered.com/app/618500/Hailstorm_VR/
