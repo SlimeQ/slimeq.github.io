@@ -20,10 +20,11 @@ Unity developer with 7+ years of experience building interactive applications fo
 
 ---
 
-## PROFESSIONAL EXPERIENCE (MOST RECENT FIRST)
+## PROFESSIONAL EXPERIENCE
 
 ### Head of AI Engineering — Silversight.ai | **Mar 2025 – Present**
-- Led engineering on production AI systems; owned CI/CD (Docker, GitHub Actions) and cloud deployments (GCP).
+- Led a small engineering team delivering production AI systems end-to-end.
+- Deployed and optimized GPU-heavy inference workloads on Google Cloud (performance tuning, cost/perf tradeoffs, reliability).
 
 ### Backend Python Developer — Agentic Brain | **Jan 2025 – Mar 2025**
 - Built OpenAI-based tooling and Python/Flask/SQLAlchemy backend services supporting multi-platform chatbots.
