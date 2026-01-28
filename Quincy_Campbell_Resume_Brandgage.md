@@ -1,5 +1,5 @@
 # Quincy Campbell
-**Pittsburgh, PA 15216** | (517) 515-1699 | quincy120@gmail.com | [slimeq.github.io](https://slimeq.github.io) | [github.com/SlimeQ](https://github.com/SlimeQ)
+**Pittsburgh, PA 15216** | (517) 515-1699 | quincy120@gmail.com | [slimeq.github.io](https://slimeq.github.io) | [github.com/SlimeQ](https://github.com/SlimeQ) | [linkedin.com/in/quincy-campbell-131559b2](https://www.linkedin.com/in/quincy-campbell-131559b2)
 
 ---
 
@@ -29,20 +29,20 @@ Unity developer with 7+ years of experience building interactive applications fo
 - Built OpenAI-based tooling and Python/Flask/SQLAlchemy backend services supporting multi-platform chatbots.
 
 ### Full Stack Developer (Unity / AR) — Tin Drum | **Mar 2023 – Jan 2025**
-- Built warehouse-scale Unity AR apps for **Magic Leap 2 (Android)** for live performances (including **KAGAMI**).
-- Developed supporting platform: Android fleet tools (200+ devices), C#/ASP.NET Core/Blazor systems for metrics, file distribution, and AV sync.
-- Created reusable Unity plugins; implemented networking/integration patterns (HTTP/WebSockets, Mirror/NGO).
-- Implemented volumetric capture compression/decompression + playback pipeline.
+- Built Unity applications for warehouse-scale AR experiences on **Magic Leap 2**.
+- Built Android fleet tooling for **200+ devices**.
+- Built **C#/ASP.NET Core/Blazor** services for metrics and content distribution.
+- Implemented volumetric capture compression/decompression and playback pipeline.
 
 ### Unity Developer — Mobeus Industries | **May 2022 – Mar 2023**
 - Led a small distributed team building a Unity 3D motion-controlled video call demo.
 - Owned architecture across netcode, graphics, and control systems; integrated Google Mediapipe pose recognition.
 
 ### Unity Developer — Chameleon Power | **Jun 2018 – May 2022**
-- Shipped Unity/PlayCanvas visualization products across **PC, WebGL, iOS, Android**.
+- Shipped product visualization apps across **PC, WebGL, iOS, and Android**.
 - Built/maintained: **Wayne Dalton Design Center**, **DoorView**, **Raynor Design Center**, **Design-It-All**, **IKO RoofViewer (Android, delisted)**, **ENVISION LED Visualizer (WebGL)**, and **Chromalyzer 2**.
 - Implemented photo-upload visualization (3D reprojection), custom shaders/materials, procedural mesh systems, complex UI, and REST/API integrations.
-- Created reusable Unity plugins and internal tools; performance and build-size optimization for low-end hardware and WebGL.
+- Built reusable Unity plugins/internal tools; optimized performance and build size for low-end hardware and WebGL.
 
 ### Solo Game Developer — Hailstorm VR | **Aug 2016 – Jun 2018**
 - Designed and shipped a multiplayer VR FPS in Unreal Engine 4 (C++), including Steam subsystem, VoIP, and Workshop support.
