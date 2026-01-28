@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "portfolio": "https://slimeq.github.io/",
+    "github": "https://github.com/SlimeQ",
+    "linkedin": "https://www.linkedin.com/in/quincy-campbell-131559b2"
+  },
+  "featured": {
+    "kagami": {
+      "primary": [
+        "https://www.theshed.org/program/299-kagami-by-ryuichi-sakamoto-and-tin-drum",
+        "https://factoryinternational.org/whats-on/kagami-ryuichi-sakamoto-tin-drum/"
+      ],
+      "press": [
+        "https://www.theguardian.com/music/2023/jul/02/kagamiryuichi-sakamoto-and-tin-drum-review-magical-vr-performance-brings-legendary-composer-back-to-life",
+        "https://www.wired.com/story/ryuichi-sakamotos-final-performance-is-a-virtual-only-engagement/",
+        "https://www.forbes.com/sites/charliefink/2023/06/10/kagami-live-mixed-realty-show-begins-limited-run/",
+        "https://www.nme.com/reviews/live/ryuichi-sakamoto-tin-drum-kagami-roundhouse-london-3567206"
+      ]
+    },
+    "hailstorm_vr": {
+      "primary": [
+        "https://store.steampowered.com/app/618500/Hailstorm_VR/",
+        "https://steamcommunity.com/app/618500"
+      ]
+    }
+  },
+  "chameleon": {
+    "wayne_dalton": {
+      "ios": "https://apps.apple.com/us/app/wayne-dalton-design-center/id1272322603",
+      "android": "https://play.google.com/store/apps/details?id=com.ChameleonPower.ProductionWayneDalton",
+      "supporting": [
+        "https://www.wayne-dalton.com/blogs/detail/resi/new-garage-door-design-center-desktop-app",
+        "https://www.wayne-dalton.com/garage-door-design-center"
+      ]
+    },
+    "doorview": {
+      "ios": "https://apps.apple.com/us/app/doorview/id1170218190",
+      "android": "https://play.google.com/store/apps/details?id=com.ChameleonPower.OverheadDoor",
+      "supporting": [
+        "https://www.overheaddoor.com/doorview-garage-door-designer-app-user-guide"
+      ]
+    },
+    "envision_led": {
+      "web": "https://snadisplays.com/envision/",
+      "supporting": [
+        "https://dpaaglobal.com/sna-displays-launches-envision-a-new-led-display-visualization-tool/"
+      ]
+    },
+    "design_it_all": {
+      "web": "https://frameitall.chameleonpower.com/"
+    },
+    "iko_roofviewer": {
+      "status": "delisted",
+      "archive": "https://iko-roofviewer.en.aptoide.com/app"
+    },
+    "raynor": {
+      "web": "https://raynor.chameleonpower.com/",
+      "supporting": [
+        "https://raynor.com/"
+      ]
+    },
+    "chromalyzer_2": {
+      "product": "https://chameleonpower.com/chromalyzer.aspx",
+      "notes": "Public pages may say Chromalyzer generally; internal project was Chromalyzer 2."
+    }
+  }
+}
