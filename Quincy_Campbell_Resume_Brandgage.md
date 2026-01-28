@@ -5,7 +5,7 @@
 
 ## SUMMARY
 
-Unity developer with 7+ years of experience building interactive applications for trade shows, live events, and product visualization. Shipped across PC, WebGL, iOS, Android, and XR (Magic Leap 2). Strong in modular C# architecture, UI implementation, asset pipeline integration with artists/designers, REST/API integration, and performance debugging/optimization.
+Unity developer with 7+ years of experience building interactive applications for live events and product visualization tools used by customers/contractors in the field. Shipped across PC, WebGL, iOS, Android, and XR (Magic Leap 2). Strong in modular C# architecture, UI implementation, asset pipeline integration with artists/designers, REST/API integration, and performance debugging/optimization.
 
 ---
 
